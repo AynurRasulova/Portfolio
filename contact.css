@@ -1,0 +1,116 @@
+body {
+    background-image: url(./images/concrete_seamless.png);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    
+}
+
+.header_contact{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    border-bottom: 2px solid #cecece;
+    background-color: #fff;
+    padding: 0 30px;
+}
+.header_contact h1 {
+    font-size: 40px;
+}
+.left_side_header {
+    background-color: #4aaaa5;;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.list_contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+    color: #858585;
+}
+.list_contact li{
+    font-size: 20px;
+}
+.list_contact a{
+    text-decoration: none;
+    color: #858585;
+}
+.main_section_contact {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin: 30px auto;
+    
+}
+.left_div_contact{
+    background: #fff;
+  padding: 30px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+  color: #858585;
+}
+
+.left_div_contact h2{
+    color: #4aaaa5;
+    font-size: 30px;
+    font-weight: 500;
+    ;
+}
+.images_contact {
+    display: flex;
+    justify-content: center;
+    gap: 10px;}
+    .images_contact img {
+        width: 100%;
+        height: 90%;}
+    .right_div_contact {
+        background: #fff;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+        width: 270px;
+        height: max-content;
+        padding: 10px;}
+        .right_div_contact h3 {
+            color: #4aaaa5;
+            font-size: 24px;
+            font-weight: 700;
+            text-align: center;
+            margin: 20px;
+          }
+          footer {
+            border-top: 8px solid #4aaaa5;
+            background-color: #666666;
+            color: whitesmoke;
+            font-size: small;
+            padding: 40px;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+            text-align: center;
+        }
+            
+            .contact_xana_name input,.contact_xana_email input, .contact_xana_message textarea{
+                margin-top: 10px;
+                width: 600px;
+                padding: 8px;
+            }
+            ::placeholder{
+                color: #cecece;
+            }
+            #name , #email , #mesaj{
+               border: 1px solid #cecece;
+            }
+            #submittion{
+                background-color: #4aaaa5;
+            color: #fff;
+            border:1px solid #4aaaa5;
+            width: 120px;
+            height: 50px;
+            text-align: center;
+        font-size: large;
+        font-weight: 500;
+            }
